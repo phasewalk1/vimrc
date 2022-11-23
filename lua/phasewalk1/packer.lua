@@ -9,11 +9,9 @@ return require('packer').startup(function()
     use { 'neoclide/coc.nvim', branch = "release" }
     use {
         'nvim-tree/nvim-tree.lua',
-        requires = {
-            'nvim-tree/nvim-web-devicons',
-        },
         tag = 'nightly'
     }
+    use 'nvim-tree/nvim-web-devicons'
     use 'liuchengxu/vista.vim'
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
@@ -29,4 +27,5 @@ return require('packer').startup(function()
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
+    use 'ryanoasis/vim-devicons'
 end)
