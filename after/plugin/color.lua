@@ -1,3 +1,4 @@
 vim.opt.background = "dark"
 
-vim.cmd("colorscheme jellybeans")
+
+vim.cmd("colorscheme tokyonight-moon")
